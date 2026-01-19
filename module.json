@@ -2,14 +2,14 @@
   "id": "token-variants",
   "title": "Token Variant Art",
   "description": "Searches a customizable list of directories and displays art variants for tokens/actors through pop-ups and a new Token HUD button. Variants can be individually shared with players allowing them to switch out their token art on the fly.",
-  "version": "4.57.2",
+  "version": "6.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": 11
   },
-  "download": "https://github.com/Aedif/TokenVariants/releases/download/4.57.2/token-variants.zip",
-  "url": "https://github.com/Aedif/TokenVariants",
-  "manifest": "https://raw.githubusercontent.com/Aedif/TokenVariants/master/token-variants/module.json",
+  "download": "https://github.com/flaming910/TokenVariants/releases/download/main/token-variants.zip",
+  "url": "https://github.com/flaming910/TokenVariants",
+  "manifest": "https://raw.githubusercontent.com/flaming910/TokenVariants/master/token-variants/module.json",
   "author": "Aedif",
   "authors": [
     {

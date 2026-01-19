@@ -902,7 +902,7 @@ export function evaluateComparator(token, expression) {
     const val2 = getPropertyValue(token, property2);
 
     if (val1.percentage) val2.val = (val2.val / val2.maxVal) * 100;
-    else if (val2.percentage) val1.val = (val1.val / val2.maxVal) * 100;
+    else if (val2.percentage) val1.val = (val1.val / val1.maxVal) * 100;
     else if (val1.boolean) val2.val = foundry.utils.isEmpty(val2.val) ? false : Boolean(val2.val);
     else if (val2.boolean) val1.val = foundry.utils.isEmpty(val1.val) ? false : Boolean(val1.val);
 
