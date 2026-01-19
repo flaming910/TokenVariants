@@ -867,7 +867,7 @@ function getPropertyValue(token, property) {
     else if (val === 'false') val = true;
     return { val, boolean: true };
   } else if (property.endsWith('%')) {
-    val = Number(property.substring(property.length - 1));
+    val = Number(property.substring(0, property.length - 1));
     return { val, percentage: true };
   } else if (property === 'hp') {
     return getTokenHP(token);
